@@ -1,0 +1,24 @@
+.btn{
+    padding: 10px 30px;
+    font-weight: 600;
+    outline: none ;
+    cursor: pointer;
+    transition: .3s all;
+}
+
+.btn-warning{
+    color: black;
+    background-color: rgb(231, 168, 50);
+    border: 1px solid rgb(231, 168, 50);
+    border-radius: 10px;
+}
+.btn-warning:hover{
+    color: rgb(231, 168, 50);
+    background-color: black;
+    border: 1px solid black;
+}
+// .btn-warning:active:focus{
+//     color: rgb(104, 50, 231);
+//     background-color: rgb(26, 211, 66);
+//     border: 1px solid rgb(0, 0, 0);
+// }

@@ -1,0 +1,118 @@
+.center{
+    text-align: center;
+}
+.middleBottom-container h1{
+    font-size: 4em;
+    padding-bottom: 70px;
+}
+.middleBottom-container{
+    margin-top: 100px;
+}
+.btn-container{
+    padding: 10px 40px;
+}
+.card-container{
+    margin-top: 60px;
+    background-color: #333;
+    border-radius: 6px;
+    padding: 40px;
+}
+.orange{
+    color: rgb(210, 87, 30);
+    padding: 20px 0px;
+    font-size: 20px;
+}
+.txt-large{
+    font-size: 30px;
+    padding: 20px 0px;
+}
+.txt-medium{
+    font-size: 20px;
+    padding: 20px 0px;
+}
+.btn-container:focus{
+    background-color: rgb(31, 162, 223);
+}
+// .btn-container button:hover{
+//     background-color: #f85a5a;
+// }
+.active-btn{
+    background-color: #f85a5a;
+}
+
+.btm-txt{
+    text-align: center;
+    margin-top: 100px;
+    padding: 40px;
+}
+.card-wrapper{
+    position: relative;
+}
+
+/* numberd cards related styles*/
+.num-cards-container{
+    padding: 30px;
+}
+.num-card{
+    font-size: 22px;
+    background-color: #333;
+    border-radius: 10px;
+    min-height: 400px;
+    padding: 30px 30px 30px 40px;
+}
+.number-container{
+    background: cadetblue;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    margin: 20px 0;
+}
+
+/* wide cards related styles and classes*/
+.width-control{
+    width: 100%;
+    max-width: 1300px;
+}
+.wideCards-container{
+    padding: 36px;
+    background-color: rgba(255, 255, 255, 0.151);
+    border-radius: 20px;
+    min-height: 150px;
+    max-height: 150px;
+}
+
+@media(max-width:959px){
+    .wideCards-container{
+        min-height: 0;
+        max-height: 400px;
+    }
+}
+/* Center Images related styles and classes*/
+
+.centerImages-container{
+    width: 100%;
+    padding: 100px 40px 40px 40px;
+    text-align: center;
+}
+.centerImages-container h1{
+    font-size: 30px;
+    padding: 20px 10%;
+}
+.centerImages-container video{
+    padding:50px 15% ;
+}
+
+@media (max-width:570px){
+    .centerImages-container h1{
+        font-size: 20px;
+    }
+    .btm-txt h1{
+        font-size: 3em;
+    }
+    .centerImages-container video{
+    padding: 0 5% ;
+}
+}

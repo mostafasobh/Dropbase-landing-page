@@ -1,0 +1,40 @@
+$color-txt:#93938f;
+#footer{
+    margin-top: 50px;
+    // width: 100%;
+    text-align: center;
+}
+.footer-container{
+    // width: 90%;
+    // background-color: rgba(255, 255, 255, 0.068);
+    display: inline-block;
+    padding: 40px;
+}
+.logo{
+    width: 160px;
+    height: 35px;
+    cursor: pointer;
+}
+.nav-links{
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    a{
+        width: fit-content;
+        color: $color-txt;
+        text-decoration: none;
+        text-transform: capitalize;
+        &:hover{
+            color: #fff;
+        }
+    }
+    
+}
+.clone-rights{
+    
+    color: $color-txt;
+    h3{
+        text-align: start;
+        display: inline-block;
+    }
+}
